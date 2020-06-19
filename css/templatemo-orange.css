@@ -102,7 +102,7 @@ h2 {
   background: none repeat scroll 0 0 #f9f9f9;
 }
 .sk-spinner-wordpress.sk-spinner {
-  background-color: #C60;
+  background-color: #6a0dad;
   width: 30px;
   height: 30px;
   border-radius: 30px;
@@ -148,12 +148,16 @@ header {
 }
 header img {
   display: inline-block !important;
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  width: 20%;
 }
 header h2 {
   padding-top: 40px;
 }
 header hr {
-  border-color: #C60;
+  border-color : #6a0dad;
   width: 100px;
 }
 
@@ -165,7 +169,7 @@ header hr {
 
 /* skills section */
 .skills {
-  background: #C60;
+  background:  #6a0dad;
   color: #f5f5f5;
 }
 .skills .progress {
@@ -183,7 +187,7 @@ header hr {
 
 /* education section */
 .education {
-  background: #C60;
+  background:  #6a0dad;
   color: #f5f5f5;
 }
 .education .education-content {
@@ -220,7 +224,7 @@ header hr {
 
 /* experience section */
 .experience {
-  background: #C60;
+  background:  #6a0dad;
   color: #f5f5f5;
 }
 .experience .experience-content {
@@ -252,7 +256,7 @@ footer {
   list-style: none;
 }
 .social-icons li a {
-  background: #C60;
+  background: #6a0dad;
   border-radius: 50%;
   color: #fff;
   text-decoration: none;
