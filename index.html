@@ -131,7 +131,43 @@ http://www.templatemo.com/tm-467-easy-profile
 </section>
 
 <!-- footer section -->
+<footer>
+	<div style="text-align:center"> 
+		<button onclick="playPause()" style="color: black;">Play/Pause</button> 
+		<button onclick="makeBig()" style="color: black;">Big</button>
+		<button onclick="makeSmall()" style="color: black;">Small</button>
+		<button onclick="makeNormal()" style="color: black;">Normal</button>
+		<br><br>
+		<video id="video1" width="420">
+		  <source src="video.mp4" type="video/mp4">
+		  <source src="mov_bbb.ogg" type="video/ogg">
+		  Your browser does not support HTML video.
+		</video>
+	  </div> 
+</footer>
 <!-- javascript js -->	
+<script> 
+	var myVideo = document.getElementById("video1"); 
+	
+	function playPause() { 
+	  if (myVideo.paused) 
+		myVideo.play(); 
+	  else 
+		myVideo.pause(); 
+	} 
+	
+	function makeBig() { 
+		myVideo.width = 560; 
+	} 
+	
+	function makeSmall() { 
+		myVideo.width = 320; 
+	} 
+	
+	function makeNormal() { 
+		myVideo.width = 420; 
+	} 
+</script> 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>	
 <script src="js/jquery.backstretch.min.js"></script>
